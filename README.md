@@ -1,4 +1,4 @@
-                                                                    # Hack-A-Roo-Fall2020
+                                                           #Hack-A-Roo-Fall2020
 Introduction:
 
 A chatbot is an application which can initiate and continue a conversation using auditory and/or textual methods as a human would do. A chatbot can be either a simple rule-based engine or an intelligent application leveraging Natural Language Understanding. It is usually used in different fields like customer support, appointment booking, frequently asked questions etc. 
