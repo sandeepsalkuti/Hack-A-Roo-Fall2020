@@ -1,0 +1,287 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: umkc_admissions
+  examples: |
+    - how can I contact admission office
+    - what is the address of admission office
+    - how can I contact admission office
+    - admissions office contact number
+
+- intent: umkc_majors
+  examples: |
+    - what are major degrees in umkc
+    - degrees offered in umkc
+    - list of all degrees in umkc
+    - graduate programs in umkc
+
+- intent: umkc_maps
+  examples: |
+    - can i get volker campus map
+    - route map of volker campus
+    - umkc camp
+    - pdf of route maps in umkc
+- intent: umkc_news
+  examples: |
+    - how to access campus news
+    - flash news in umkc
+    - latest updates in umkc
+    - news page in umkc
+
+- intent: umkc_research
+  examples: |
+    - which reaserch work is going on campus
+    - research page in umkc website
+    - research work held in umkc
+    - research updates on campus
+
+- intent: umkc_alumni
+  examples: |
+    - what are events conducted by alumni
+    - alumni events page in umkc
+    - list of events conducted by alumni
+    - alumni applications
+
+- intent: umkc_history
+  examples: |
+    - what is the history of umkc
+    - when is umkc built in
+    - history of umkc
+    - era of umkc
+
+- intent: umkc_dining
+  examples: |
+    - dining services on campus
+    - can I get list of all oncampus food stations
+    - coffee shops in umkc
+    - timings of dining services
+
+- intent: umkc_calender
+  examples: |
+    - campus academic calender
+    - where can I get campus calender
+    - calender of 2020 of umkc
+    - when is spring break
+
+
+- intent: umkc_appointments
+  examples: |
+    - advisor appointments
+    - academic advisor information
+    - how can I contact advisor
+    - where can I meet advisor
+
+- intent: corona_intro
+  examples: |
+    - What is corona virus
+    - what is covid
+    - what is a novel corona virus
+    - what is covid-19
+    - tell me about corona
+    - can you tell me about covid
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread
+    - how does the virus spread
+    - spread of corona virus
+    - what way is virus spread
+
+- intent: corona_food_spread
+  examples: |
+    - Does corona spread from food
+    - how will corona spread from food
+    - does imbalenced food spreads corona
+    - guidelines of food spread from corona
+
+- intent: warm_weather
+  examples: |
+    - will warm weather stop the spread
+    - will it stop with warm weather
+    - does weather affects corona patients
+    - how does weather should be in corona
+
+- intent: high_risk
+  examples: |
+    - who is at a higher risk of infection
+    - higher risk from corona
+    - does older affect from corona
+    - does children affect from corona
+
+- intent: botchat_1
+  examples: |
+    - Ok, you are a robot. I am broken down, actually I am depressed. I mean fatigue.
+    - you are bot. I am broken down.
+    - I am broken down
+    - I am feeling fatigue by the way you are bot
+
+- intent: botchat_2
+  examples: |
+    - It is just my work. A lot of pressure. There is so much to do and my kids are doing virtual school at home, and I work from home. I am worried about their learning. And, my work. Then, the salary cut. Some friends at work were let go. I woke up in the middle of night, and I felt fear but I did not know what I was afraid of.
+    - Its work pressure and I should take care of childrens and home
+    - virtually maintaining all is headache
+    - corona has affected in all ways
+
+- intent: botchat_3
+  examples: |
+    - Around 8 hours/day
+    - 5-8 hours
+    - 6-8 hours
+    - 8=10 hours
+
+- intent: social_info
+  examples: |
+    - can I get link for facebook
+    - login link to facebook
+    - fb
+    - facebook page
+
+- intent: news_info
+  examples: |
+    - flash news in USA
+    - us news
+    - daily news
+    - news headlines
+
+- intent: hospital_info
+  examples: |
+    - list of all hospitals
+    - hospitals address
+    - hospitals near me
+    - hospitals in kansas
+
+- intent: entertainment_info
+  examples: |
+    - I am willing to watch movies
+    - netflix login
+    - netflix page
+    - I need entertainment
+
+- intent: shopping_info
+  examples: |
+    - where can I shop online
+    - online shopping platform
+    - amazon prime
+    - prime login
+
+- intent: costco_info
+  examples: |
+    - where can I buy groceries
+    - groceries online
+    - walmart working hours
+    - costco working hours
+
+- intent: food_info
+  examples: |
+    - where can I order my food online?
+    - doordash order
+    - food delivering app
+    - I need to order food
+
+- intent: cab_info
+  examples: |
+    - I need to book a cab
+    - cab booking service online
+    - uber booking
+    - cab services
+
+- intent: airports_info
+  examples: |
+    - I need to check flights
+    - aiports in usa
+    - flight timings
+    - flight arrival and departures
+
+
+
+

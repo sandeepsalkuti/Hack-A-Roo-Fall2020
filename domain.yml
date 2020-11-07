@@ -1,0 +1,220 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - umkc_admissions
+  - umkc_majors
+  - umkc_maps
+  - umkc_news
+  - umkc_research
+  - umkc_alumni
+  - umkc_history
+  - umkc_dining
+  - umkc_calender
+  - umkc_appointments
+  - corona_intro
+  - corona_spread
+  - corona_food_spread
+  - warm_weather
+  - high_risk
+  - botchat_1
+  - botchat_2
+  - botchat_3
+  - social_info
+  - news_info
+  - hospital_info
+  - entertainment_info
+  - shopping_info
+  - costco_info
+  - food_info
+  - cab_info
+  - airports_info
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_deny:
+  - text: "what are you looking for?"
+
+  utter_admissions:
+  - text: "Here is the info:
+          phone: 816-235-8652
+                 800-775-8652(toll free)
+          Address: 5000 Holmes St.
+                   Kansas City, MO 64110
+                   admissions@umkc.edu
+          For any additional information visit https://www.umkc.edu/"
+  utter_majors:
+  - text: "Here is the link for additional information: https://cf1.umkc.edu/majormaps/
+           For any additional information visit https://www.umkc.edu/"
+
+
+  utter_maps:
+  - text: "Here is maps route pdf: https://www.umkc.edu/about/documents/Volker-map.pdf
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_news:
+  - text: "This is link for latest news: https://www.umkc.edu/news/
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_research:
+  - text: "This is link for research works: https://www.umkc.edu/research/index.html
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_alumni:
+  - text: "Link for events conducted: https://www.umkcalumni.com/s/1236/16/index.aspx?sid=1236&gid=1&pgid=2277
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_history:
+  - text: "history of umkc: https://www.umkc.edu/about/history.html
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_dining:
+  - text: "These are dining services on campus: https://umkc.sodexomyway.com/dining-near-me
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_calender:
+  - text: "This is campus calender: https://calendar.umkc.edu/
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_appointments:
+  - text: "Appointments page for academic advisor: https://sce.umkc.edu/resources/advising-support/
+           For any additional information visit https://www.umkc.edu/"
+
+  utter_corona_intro:
+  - text: "Coronaviruses are a group of related viruses that cause diseases in mammals
+        and birds. In humans, coronaviruses cause respiratory tract infections that
+        can be mild, such as some cases of the common cold and others that can be lethal, such as SARS, MERS,
+        and COVID-19.
+        For any additional information visit https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+  utter_corona_spread:
+  - text: "This virus was first detected in Wuhan City, Hubei Province, China. The\
+        \ first infections were linked to a live animal market, but the virus is now\
+        \ spreading from person-to-person.
+        For any additional information visit https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+
+  utter_corona_food_spread:
+  - text: "Currently there is no evidence to support transmission
+          of COVID-19 associated with food. Before preparing or eating food it is important
+          to always wash your hands with soap and water for 20 seconds for general food
+          safety. Throughout the day wash your hands after blowing your nose, coughing
+          or sneezing, or going to the bathroom.
+          For any additional information visit https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+
+  utter_warm_weather:
+  - text: "It is not yet known whether weather and temperature impact the spread of
+          COVID-19. Some other viruses, like the common cold and flu, spread more during
+          cold weather months but that does not mean it is impossible to become sick with
+          these viruses during other months.
+          For any additional information visit https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+
+  utter_high_risk:
+  - text: "Older adults and people of any age who have serious underlying medical conditions
+          may be at higher risk for more serious complications from COVID-19.
+          For any additional information visit https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+
+  utter_botchat_1:
+  - text: "Hi, I am rasabot. I am a robot. Nice to meet you. How do you feel today?"
+
+  utter_botchat_2:
+  - text: " I am so sorry to hear that. I am concerned about you. What happened? "
+
+  utter_botchat_3:
+    - text: " I totally understand that. COVID has hit us very hard, and working from home with kids creates a lot of pressure, especially for moms. How frequently do you have sleeping problems?"
+
+  utter_social_info:
+    - text: " Login to Facebook: https://www.facebook.com/login/"
+
+
+  utter_news_info:
+    - text: " News updates: https://www.usnews.com/"
+
+
+  utter_hospital_info:
+    - text: " you can shortlist here: https://www.hospitalsafetygrade.org/h/acmh-hospital"
+
+
+  utter_entertainment_info:
+    - text: " watch some movies here: https://www.netflix.com/"
+
+
+  utter_shopping_info:
+    - text: " Shop here: https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya"
+
+
+  utter_costco_info:
+    - text: " Get groceries here: https://www.costco.com/
+              https://www.walmart.com/"
+
+
+  utter_food_info:
+    - text: " Order your food: https://www.doordash.com/en-US/?ignore_splash_experience=true&utm_source=Google&utm_medium=SEMb&utm_campaign=CX_US_SE_SB_GO_ACQ_TCTXXX_9256288021_+BR_ACQ_INMKT_GenDeliveryxx_EVG_CPAx_EXA_TZCST_EN_EN_X_DOOR_GO_SE_TXT_XXXXXXXXXX&utm_term=doordash&utm_content=91210143342&kclickid=_k_CjwKCAiA4o79BRBvEiwAjteoYF2fNGr9e3yUGemLedVvAcFGh1OJlywae8Caidl6-AlGUUU2Dja2UxoCegcQAvD_BwE_k_&utm_adgroup_id=91210143342&utm_creative_id=426585167272&utm_keyword_id=kwd-63454401416&gclid=CjwKCAiA4o79BRBvEiwAjteoYF2fNGr9e3yUGemLedVvAcFGh1OJlywae8Caidl6-AlGUUU2Dja2UxoCegcQAvD_BwE"
+
+  utter_cab_info:
+    - text: " book your cab: https://www.uber.com/a/join-kochab?fullForm=true&min=true&exp=80917_t2&gsxp=ogsoct17ton&nglp=true&lpgl=true&utm_source=AdWords_Brand&utm_campaign=CM2058135-search-google-brand_1_-99_US-National_driver_web_acq_cpc_en_Generic_BMM_%2Buber_kwd-38545560932_471899627002_112368040538_b_c&campaign_id=11288638223&adg_id=112368040538&fi_id=&match=b&net=g&dev=c&dev_m=&ad_id=471899627002&cre=471899627002&kwid=kwd-38545560932&kw=%2Buber&placement=&tar=&&gclid=CjwKCAiA4o79BRBvEiwAjteoYIxsADvPqRk6ZFVTHljeJzAG-e40vtajtG1Zcxp_YTzBC9RdM-WwpxoC3tYQAvD_BwE&gclid=CjwKCAiA4o79BRBvEiwAjteoYIxsADvPqRk6ZFVTHljeJzAG-e40vtajtG1Zcxp_YTzBC9RdM-WwpxoC3tYQAvD_BwE&gclsrc=aw.ds"
+
+  utter_airports_info:
+    - text: " check airports here: https://www.globalair.com/airport/state.aspx"
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_deny
+- utter_admissions
+- utter_majors
+- utter_maps
+- utter_news
+- utter_research
+- utter_alumni
+- utter_history
+- utter_dining
+- utter_calender
+- utter_appointments
+- utter_corona_intro
+- utter_corona_spread
+- utter_corona_food_spread
+- utter_warm_weather
+- utter_high_risk
+- utter_botchat_1
+- utter_botchat_2
+- utter_botchat_3
+- utter_social_info
+- utter_news_info
+- utter_hospital_info
+- utter_entertainment_info
+- utter_shopping_info
+- utter_costco_info
+- utter_food_info
+- utter_cab_info
+- utter_airports_info
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

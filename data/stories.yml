@@ -1,0 +1,293 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_deny
+
+- story: path 1
+  steps:
+  - intent: greet
+  - action: utter_botchat_1
+  - intent: botchat_1
+  - action: utter_botchat_2
+  - intent: botchat_2
+  - action: utter_botchat_3
+  - intent: botchat_3
+  - action: utter_did_that_help
+
+- story: path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - intent: umkc_admissions
+  - action: utter_admissions
+  - action: utter_did_that_help
+  - intent: umkc_majors
+  - action: utter_majors
+  - action: utter_did_that_help
+  - intent: umkc_maps
+  - action: utter_maps
+  - action: utter_did_that_help
+  - intent: umkc_news
+  - action: utter_news
+  - action: utter_did_that_help
+  - intent: umkc_research
+  - action: utter_research
+  - action: utter_did_that_help
+  - intent: umkc_alumni
+  - action: utter_alumni
+  - action: utter_did_that_help
+  - intent: umkc_history
+  - action: utter_history
+  - action: utter_did_that_help
+  - intent: umkc_dining
+  - action: utter_dining
+  - action: utter_did_that_help
+  - intent: umkc_calender
+  - action: utter_calender
+  - action: utter_did_that_help
+  - intent: umkc_appointments
+  - action: utter_appointments
+  - action: utter_did_that_help
+
+## what is corona
+- story: path 3
+  steps:
+  - intent: corona_intro
+  - action: utter_corona_intro
+  - action: utter_did_that_help
+
+## how does corona spread
+- story: path 4
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+  - action: utter_did_that_help
+
+## corona food spread
+- story: path 5
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+  - action: utter_did_that_help
+
+## corona warm weather
+- story: path 6
+  steps:
+  - intent: warm_weather
+  - action: utter_warm_weather
+  - action: utter_did_that_help
+
+## corona high risk
+- story: path 7
+  steps:
+  - intent: high_risk
+  - action: utter_high_risk
+  - action: utter_did_that_help
+
+##admissions
+- story: path 8
+  steps:
+  - intent: umkc_admissions
+  - action: utter_admissions
+  - action: utter_did_that_help
+
+
+##majors
+- story: path 9
+  steps:
+  - intent: umkc_majors
+  - action: utter_majors
+  - action: utter_did_that_help
+
+
+##maps
+- story: path 10
+  steps:
+  - intent: umkc_maps
+  - action: utter_maps
+  - action: utter_did_that_help
+
+##news
+- story: path 11
+  steps:
+  - intent: umkc_news
+  - action: utter_news
+  - action: utter_did_that_help
+
+##research
+- story: path 12
+  steps:
+  - intent: umkc_research
+  - action: utter_research
+  - action: utter_did_that_help
+
+##alumni
+- story: path 13
+  steps:
+  - intent: umkc_alumni
+  - action: utter_alumni
+  - action: utter_did_that_help
+
+##history
+- story: path 14
+  steps:
+  - intent: umkc_history
+  - action: utter_history
+  - action: utter_did_that_help
+
+##dining
+- story: path 15
+  steps:
+  - intent: umkc_dining
+  - action: utter_dining
+  - action: utter_did_that_help
+
+##calender
+- story: path 16
+  steps:
+  - intent: umkc_calender
+  - action: utter_calender
+  - action: utter_did_that_help
+
+##appointments
+- story: path 17
+  steps:
+  - intent: umkc_appointments
+  - action: utter_appointments
+  - action: utter_did_that_help
+
+##appointments
+- story: path 18
+  steps:
+  - intent: social_info
+  - action: utter_social_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 19
+  steps:
+  - intent: news_info
+  - action: utter_news_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 20
+  steps:
+  - intent: hospital_info
+  - action: utter_hospital_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 21
+  steps:
+  - intent: entertainment_info
+  - action: utter_entertainment_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 22
+  steps:
+  - intent: shopping_info
+  - action: utter_shopping_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 23
+  steps:
+  - intent: costco_info
+  - action: utter_costco_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 24
+  steps:
+  - intent: food_info
+  - action: utter_food_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 25
+  steps:
+  - intent: cab_info
+  - action: utter_cab_info
+  - action: utter_did_that_help
+
+##appointments
+- story: path 26
+  steps:
+  - intent: aiports_info
+  - action: utter_airports_info
+  - action: utter_did_that_help
+
+- story: path 27
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: social_info
+  - action: utter_social_info
+  - action: utter_did_that_help
+  - intent: news_info
+  - action: utter_news_info
+  - action: utter_did_that_help
+  - intent: hospital_info
+  - action: utter_hospital_info
+  - action: utter_did_that_help
+  - intent: entertainment_info
+  - action: utter_entertainment_info
+  - action: utter_did_that_help
+  - intent: shopping_info
+  - action: utter_shopping_info
+  - action: utter_did_that_help
+  - intent: costco_info
+  - action: utter_costco_info
+  - action: utter_did_that_help
+  - intent: food_info
+  - action: utter_food_info
+  - action: utter_did_that_help
+  - intent: cab_info
+  - action: utter_cab_info
+  - action: utter_did_that_help
+  - intent: airports_info
+  - action: utter_airports_info
+  - action: utter_did_that_help
+
+
+
+- story: action_restart

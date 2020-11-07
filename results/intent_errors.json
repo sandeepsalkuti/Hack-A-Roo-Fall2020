@@ -1,0 +1,18 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4987703859806061
+    }
+  },
+  {
+    "text": "history of umkc",
+    "intent": "umkc_history",
+    "intent_prediction": {
+      "name": "social_info",
+      "confidence": 0.2224045991897583
+    }
+  }
+]
